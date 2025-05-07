@@ -62,6 +62,7 @@ public class TestData {
             if (priceStr != null) {
                 btcClosePrices.add(Double.parseDouble(priceStr));
             }
+            System.out.println(row.toString());
         }
 
         // Calculate the 5-period SMA for BTC/USD data
